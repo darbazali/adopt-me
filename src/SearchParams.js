@@ -1,6 +1,7 @@
 import React from 'react'
 
 const SearchParams = (props) => {
+    const location = "Seattle, WA"
     return (
         <div className="search-params">
             <form>
@@ -9,7 +10,7 @@ const SearchParams = (props) => {
                     <input 
                         placeholder="Location.."
                         id="location" 
-                        value={props.location}>
+                        value={location}>
                     </input>
                 </label>
 
