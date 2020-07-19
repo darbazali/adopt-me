@@ -1,5 +1,5 @@
-## React Sterter Kit
-A simple React.js Starter Kit for fast development.
+## Adopt Me
+Adopt Me REST API with React
 
 ### Scripts
 **dev** for development env
