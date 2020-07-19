@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const SearchParams = (props) => {
-    const location = "Seattle, WA"
+const SearchParams = () => {
+    const [ location, setLocation ] = useState('Seattle, WA');
     return (
         <div className="search-params">
             <form>
@@ -9,6 +9,7 @@ const SearchParams = (props) => {
                     Location:<br/>
                     <input 
                         placeholder="Location.."
+                        onChange={ e => setLocation(e.target.value) }
                         id="location" 
                         value={location}>
                     </input>
